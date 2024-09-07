@@ -1,0 +1,24 @@
+{
+  "name": "cli-quiz-app",
+  "version": "0.1.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": "./index.js",
+  "homepage": "https://www.sudipbiswas.dev",
+  "description": "A CLI quiz app",
+  "author": "sudipb7",
+  "license": "ISC",
+  "keywords": ["cli"],
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sudipb7/cli-quiz-app"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^10.2.1",
+    "nanospinner": "^1.1.0"
+  }
+}
